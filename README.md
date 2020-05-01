@@ -16,13 +16,13 @@ Here are some examples of our outcomes, just take a look ! ( use `ImageChops.dif
 
 ​              *Label                                                             Prediction                                                            Distinction*
 
-<img src="result/compare-pic/compare_2/0.PNG" alt="0" style="zoom:80%;" />
+<img src="result/compare-pic/compare_2/0.png">
 
 
 
 Want to have a more intuitive look?
 
-<img src="result/loss-error-curve/intuitive.GIF" alt="intuitive" style="zoom:80%;" />
+<img src="result/loss-error-curve/intuitive.gif">
 
 ​                                                            Loop (*Label*$\to$*Prediction*$\to$*Distinction*)
 
