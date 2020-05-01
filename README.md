@@ -16,13 +16,13 @@ Here are some examples of our outcomes, just take a look ! ( use `ImageChops.dif
 
 ​              *Label                                                             Prediction                                                            Distinction*
 
-<img src="result/compare-pic/compare_2/0.png" alt="0" style="zoom:80%;" />
+<img src="result/compare-pic/compare_2/0.PNG" alt="0" style="zoom:80%;" />
 
 
 
 Want to have a more intuitive look?
 
-<img src="result/loss-error-curve/intuitive.gif" alt="intuitive" style="zoom:80%;" />
+<img src="result/loss-error-curve/intuitive.GIF" alt="intuitive" style="zoom:80%;" />
 
 ​                                                            Loop (*Label*$\to$*Prediction*$\to$*Distinction*)
 
@@ -30,8 +30,8 @@ Want to have a more intuitive look?
 
 ## You can always have a try !
 
-- Want to see how the segmentation is generated ? Apply `model.ckpt` from `train-saver/dataresult9` to `src/demo_ratio_data.ipynb` to reach the result images immediately .
-- Want to train the network by your own ? Change path in `src/network/unet.py` as well as the corresponding ones in `src/demo_ratio_data.ipynb` click the run bottom and have a try !
+- Want to see how the segmentation is generated ? Apply `model.ckpt` from `train-saver/dataresult9` to `src/demo_ratio_data.ipynb` to get the result segmentation immediately .
+- Want to train the network on your own ? Change path in `src/network/unet.py` as well as the corresponding ones in `src/demo_ratio_data.ipynb` click the run bottom and have a try !
 - What about data visualization and analysis processes ? All in `src/demo_ratio_data.ipynb`.
 
 ### What should be improved ?
@@ -39,9 +39,9 @@ Want to have a more intuitive look?
 Much work need to be done. 
 
 - Our dataset is limited in number. 
-- We didn't consider how deep may be most suitable for the segmentation result.
+- We didn't consider how deep the ConNet may be most suitable for the segmentation result.
 - The modification is in processing.
 
 
 
-**PS: The reporitory has NOT completed for now, so don't expect too much**
+**PS: The reporitory has NOT completed for now.**
