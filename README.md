@@ -7,7 +7,7 @@
 The purpose is to do the segmentation of osteocyte cell images. Since the similar work hasn't been conducted using neural network. We initialy planned to apply [U-net](dataset/unet.pdf) to do the segmentation. After that, we did some modification (add neurals to fill the iconic *U gap* between encoder layers and decoder layers) to the network structure to strengthen the connection and see what may happen to the results. And surprisingly results were not bad consider the number of our mini data set. 
 
 - Stage1:  Label raw osteocyte images using [TINA]() and [Amira]() manually. Since our mini data set only contain 135 images([here](dataset/raw-data/ocn)), it's not hard to draw the labels. Then we started training for 20 epochs (2000 iterations per epoch), thats total 40000 times iterations. And our training loss came to a fair 0.5816 with average error rate 2.635%.
-- Stage 2: Continue with the training until the training epochs reached 65. That's total $1.3\times10^5$ times iterations, with average training loss 0.4024. Applying the latest weights and parameters the error rate declined to 2.560% performed on our test dataset. 
+- Stage 2: Continue with the training until the training epochs reached 65. That's total $1.3\times10^5$ times iterations, with average training loss 0.4024. Applying the latest weights and parameters the error rate declined to 2.560% . 
 - Stage 3: Apply the modification, and continue training.
 
 ## What can you see?
@@ -36,10 +36,10 @@ Want to have a more intuitive look?
 
 ### What should be improved ?
 
-Much work need to be done. 
+More work need to be done. 
 
 - Our dataset is limited in number. 
-- We didn't consider how deep the ConNet may be most suitable for the segmentation result.
+- We didn't consider how deep the ConvNet may be most suitable for the segmentation result.
 - The modification is in processing.
 
 
